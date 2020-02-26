@@ -36,54 +36,60 @@
 <body class="d-flex flex-column h-100">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light" >
+<!--    <div class="container-fluid">-->
+    
 
-  <a class="navbar-brand" href="/"><h5><b>Kaiyou Liu</b></h5></a>
+      <a class="navbar-brand" href="/"><h5><b>Kaiyou Liu</b></h5></a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
+        <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link " href="/playground/">Playground</a>
+          <a class="nav-item nav-link " href="/playground/">Playground</a>
 
-      <a class="nav-item nav-link " href="/blog/">Blog</a>
+          <a class="nav-item nav-link " href="/blog/">Blog</a>
 
-      <a class="nav-item nav-link " href="/about/">About</a>
+          <a class="nav-item nav-link " href="/about/">About</a>
 
-      
+          
 
-    </div>
-  </div>
-
+        </div>
+      </div>
+<!--    </div>-->
 </nav>
+
   <div class="col-lg-10 mx-auto mt-5 post">
-  <h1 id="puzzle-library">Puzzle Library</h1>
+  <h1 id="libbot">Libbot</h1>
 <p><strong>Project Info</strong>    Individual project</p>
 
 <p><strong>Role</strong>    UX Designer, User Researcher, Visual Designer</p>
 
 <p><strong>Duration</strong>    07/2018 - 09/2018</p>
 
-<h2 id="challenge">Challenge</h2>
+<h3 id="problem-statement">Problem Statement</h3>
 
-<p>Experience in kid’s library is not always a enjoyment for kids, particularly when their first time to library. <strong>Everything is new to them.</strong> On the one hand, their parents wish their children feel the quiet atmosphere of reading and know how to use library resource well and quickly. However, parents do almost all of their children’s thing including searching books, borrowing books, joining which activities and so on.  So it’s hard for the children to learn how to make use of all resource well in library. On the other hand, children find it hard to use the library resource smoothly and  feel bored about the traditional library scene. They want to enjoy whole process in library. Making children enjoy their library trip can be a challenge.</p>
+<p>I have been used to borrowing books from public libraries in my hometown since I was a kid. However, I am frustrated that everytime I need to be back and forth between different libraries to borrow the book I want. It wastes time and sometimes make me annoyed. Therefore, I began to ask the question:</p>
 
-<p><strong>How can we help children make use of resource in library more enjoyably and smoothly?</strong></p>
+<blockquote>
+  <h5 id="how-might-we-create-a-borrowing-experience-for-public-library-users-to-to-check-the-availabilty-of-books-and-borrow-books-easily">How might we create a borrowing experience for public library users to to check the availabilty of books and borrow books easily?</h5>
+</blockquote>
 
-<h2 id="design-outcome">Design Outcome</h2>
+<h3 id="design-outcome">Design Outcome</h3>
 
-<h2 id="understand-user-need">Understand User Need</h2>
+<h3 id="understand">Understand</h3>
 
-<h3 id="interview">Interview</h3>
+<h4 id="public-library-web-heuristic-evaluation">Public Library Web Heuristic Evaluation</h4>
+<p>Public library in my hometown have its web-based system for users to use the library resources. So I do a Heuristic Evaluation for the website to know the problems.
+<img src="https://user-images.githubusercontent.com/48978683/75280559-ab343080-57db-11ea-9d33-04a0fddaf53f.png" alt="heuristic evaluation" title="H E" /></p>
 
-<p>The most important information I want to collect was the specific library experience of children. In order to explore the problem space and study for specific pain points from my users. I approach families at he reference desk and reach out to personal contact to ask if they want to participate. I interviewed 5 families including 5 children to get to know about their own diverse experiences. Also, I interview one library stuff to understand what these children ask for them. Based on those probing, I specifically identified <strong>following insights.</strong></p>
+<h4 id="interview--contextual-observation">Interview &amp; Contextual Observation</h4>
 
-<h3 id="contextual-observation">Contextual Observation</h3>
-
-<p>In order to gain in-depth understanding of children’s behavior and how they interaction between librarian and library environment, I conducted observation in the library for one day. It helped me to learn children’s whole library experience and their <strong>special behaviors.</strong> I took notes while I conducted observation to children. Below are the notes and pictures I took during the contextual observation.</p>
+<p>In order to explore the problem space and study for specific pain points from my users. I observe  people coming to public libraries. Then I interviewed 6 of them to know about their own diverse experiences. Based on those probing, I specifically identified types of users.</p>
 
 <p>Then I visualize the data I observed and document the <strong>children’s path</strong> and their key points when they interact with the library context.</p>
 
@@ -191,18 +197,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 
 <!-- Bootstrap JS CDN -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+<!--Plugin Javascript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <!-- wow.js CDN & Activation -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script> new WOW().init(); </script>
-
+<!--Contact from Javascipt-->
+<script src="js/agency.js"></script>
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
 <!-- Initialize all tooltips -->
 <script>
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
 
 </body>
 

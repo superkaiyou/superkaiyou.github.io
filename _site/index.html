@@ -36,29 +36,33 @@
 <body class="d-flex flex-column h-100">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light" >
+<!--    <div class="container-fluid">-->
+    
 
-  <a class="navbar-brand" href="/"><h5><b>Kaiyou Liu</b></h5></a>
+      <a class="navbar-brand" href="/"><h5><b>Kaiyou Liu</b></h5></a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
+        <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link " href="/playground/">Playground</a>
+          <a class="nav-item nav-link " href="/playground/">Playground</a>
 
-      <a class="nav-item nav-link " href="/blog/">Blog</a>
+          <a class="nav-item nav-link " href="/blog/">Blog</a>
 
-      <a class="nav-item nav-link " href="/about/">About</a>
+          <a class="nav-item nav-link " href="/about/">About</a>
 
-      
+          
 
-    </div>
-  </div>
-
+        </div>
+      </div>
+<!--    </div>-->
 </nav>
+
   <div class="row justify-content-center align-items-center p-4">
   <div class="col-lg-4 col-md-6 text-center mt-4">
 
@@ -86,21 +90,21 @@
 </div>
 
     <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/b-puzzle-library" class="project card text-dark"><img id="puzzle-library-img" class="card-img-top" src="https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png" alt="Puzzle Library" /><div class="card-body">
-      <h5 id="puzzle-library-name" class="card-title">Puzzle Library
+  <a href="/projects/b-libbot" class="project card text-dark"><img id="libbot-img" class="card-img-top" src="https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png" alt="Libbot" /><div class="card-body">
+      <h5 id="libbot-name" class="card-title">Libbot
       </h5>
-      <p id="puzzle-library-desc" class="card-text">This project aim at improving children experience in Kid Library by providing a easy and enjoyable way for them to use library resources</p>
-      <p id="puzzle-library-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Sketch</span><span class="badge badge-pill text-primary border border-primary ml-1">Photoshop</span><span class="badge badge-pill text-primary border border-primary ml-1">Principle</span></p>
+      <p id="libbot-desc" class="card-text">Libbot is a library assistant for helping people use public library resources</p>
+      <p id="libbot-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">UX Design</span><span class="badge badge-pill text-primary border border-primary ml-1">UX Research</span><span class="badge badge-pill text-primary border border-primary ml-1">Visual Design</span></p>
     </div>
   </a>
 </div>
 
     <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/c-foodope" class="project card text-dark"><div class="card-body">
+  <a href="/projects/c-foodope" class="project card text-dark"><img id="foodope-img" class="card-img-top" src="https://user-images.githubusercontent.com/48978683/75385593-07678500-58ae-11ea-8b1f-1373f9fc0fac.png" alt="Foodope" /><div class="card-body">
       <h5 id="foodope-name" class="card-title">Foodope
       </h5>
       <p id="foodope-desc" class="card-text">This project has no image or showcase page, but it is still a beautiful project inside out!</p>
-      <p id="foodope-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">UX Design</span><span class="badge badge-pill text-primary border border-primary ml-1">UX Research</span></p>
+      <p id="foodope-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">UX Design</span><span class="badge badge-pill text-primary border border-primary ml-1">UX Research</span><span class="badge badge-pill text-primary border border-primary ml-1">Visual Design</span></p>
     </div>
   </a>
 </div>
@@ -160,18 +164,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 
 <!-- Bootstrap JS CDN -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+<!--Plugin Javascript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <!-- wow.js CDN & Activation -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script> new WOW().init(); </script>
-
+<!--Contact from Javascipt-->
+<script src="js/agency.js"></script>
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
 <!-- Initialize all tooltips -->
 <script>
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
 
 </body>
 

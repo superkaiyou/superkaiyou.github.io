@@ -1,33 +1,35 @@
 ---
-name: Puzzle Library
-tools: [Sketch, Photoshop, Principle]
+name: Libbot
+tools: [UX Design, UX Research, Visual Design]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project aim at improving children experience in Kid Library by providing a easy and enjoyable way for them to use library resources
+description: Libbot is a library assistant for helping people use public library resources
 ---
-# Puzzle Library 
+# Libbot 
 **Project Info**    Individual project
 
 **Role**    UX Designer, User Researcher, Visual Designer
 
 **Duration**    07/2018 - 09/2018
 
-## Challenge
+### Problem Statement
 
-Experience in kid’s library is not always a enjoyment for kids, particularly when their first time to library. **Everything is new to them.** On the one hand, their parents wish their children feel the quiet atmosphere of reading and know how to use library resource well and quickly. However, parents do almost all of their children’s thing including searching books, borrowing books, joining which activities and so on.  So it’s hard for the children to learn how to make use of all resource well in library. On the other hand, children find it hard to use the library resource smoothly and  feel bored about the traditional library scene. They want to enjoy whole process in library. Making children enjoy their library trip can be a challenge.
+I have been used to borrowing books from public libraries in my hometown since I was a kid. However, I am frustrated that everytime I need to be back and forth between different libraries to borrow the book I want. It wastes time and sometimes make me annoyed. Therefore, I began to ask the question:
 
-**How can we help children make use of resource in library more enjoyably and smoothly?**
+>##### How might we create a borrowing experience for public library users to to check the availabilty of books and borrow books easily?
 
-## Design Outcome
+### Design Outcome
 
-## Understand User Need
+### Understand
 
-### Interview
 
-The most important information I want to collect was the specific library experience of children. In order to explore the problem space and study for specific pain points from my users. I approach families at he reference desk and reach out to personal contact to ask if they want to participate. I interviewed 5 families including 5 children to get to know about their own diverse experiences. Also, I interview one library stuff to understand what these children ask for them. Based on those probing, I specifically identified **following insights.**
+#### Public Library Web Heuristic Evaluation
+Public library in my hometown have its web-based system for users to use the library resources. So I do a Heuristic Evaluation for the website to know the problems.
+![heuristic evaluation](https://user-images.githubusercontent.com/48978683/75280559-ab343080-57db-11ea-9d33-04a0fddaf53f.png "H E")
 
-### Contextual Observation
 
-In order to gain in-depth understanding of children’s behavior and how they interaction between librarian and library environment, I conducted observation in the library for one day. It helped me to learn children’s whole library experience and their **special behaviors.** I took notes while I conducted observation to children. Below are the notes and pictures I took during the contextual observation.
+#### Interview & Contextual Observation
+
+In order to explore the problem space and study for specific pain points from my users. I observe  people coming to public libraries. Then I interviewed 6 of them to know about their own diverse experiences. Based on those probing, I specifically identified types of users.
 
 Then I visualize the data I observed and document the **children’s path** and their key points when they interact with the library context.
 

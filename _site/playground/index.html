@@ -36,29 +36,33 @@
 <body class="d-flex flex-column h-100">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light" >
+<!--    <div class="container-fluid">-->
+    
 
-  <a class="navbar-brand" href="/"><h5><b>Kaiyou Liu</b></h5></a>
+      <a class="navbar-brand" href="/"><h5><b>Kaiyou Liu</b></h5></a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
+        <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link active" href="/playground/">Playground</a>
+          <a class="nav-item nav-link active" href="/playground/">Playground</a>
 
-      <a class="nav-item nav-link " href="/blog/">Blog</a>
+          <a class="nav-item nav-link " href="/blog/">Blog</a>
 
-      <a class="nav-item nav-link " href="/about/">About</a>
+          <a class="nav-item nav-link " href="/about/">About</a>
 
-      
+          
 
-    </div>
-  </div>
-
+        </div>
+      </div>
+<!--    </div>-->
 </nav>
+
   
   </main>
 
@@ -110,18 +114,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 
 <!-- Bootstrap JS CDN -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+<!--Plugin Javascript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <!-- wow.js CDN & Activation -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script> new WOW().init(); </script>
-
+<!--Contact from Javascipt-->
+<script src="js/agency.js"></script>
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
 <!-- Initialize all tooltips -->
 <script>
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
 
 </body>
 
