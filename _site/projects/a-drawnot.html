@@ -13,7 +13,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
+  <meta name="description" content=""I turn coffee :coffee: into code, use tabs over spaces and never broke production."">
 
   <title>Kaiyou Liu</title>
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -36,7 +36,7 @@
 <body class="d-flex flex-column h-100">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light" >
+  <nav class="navbar navbar-expand-lg navbar-light">
 <!--    <div class="container-fluid">-->
     
 
@@ -48,13 +48,12 @@
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           
-        <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
-
-          <a class="nav-item nav-link " href="/playground/">Playground</a>
-
-          <a class="nav-item nav-link " href="/blog/">Blog</a>
+        <div class="navbar-nav ml-auto">
+<a class="nav-item nav-link active" href="/projects/">Projects</a>
 
           <a class="nav-item nav-link " href="/about/">About</a>
+
+          <a class="nav-item nav-link " href="https://docdro.id/FMCRhum">Resume</a>
 
           
 
@@ -64,7 +63,15 @@
 </nav>
 
   <div class="col-lg-10 mx-auto mt-5 post">
-  
+  <div>
+<h1> Drawnote </h1>
+<p> The dematerialisation of the modern music producing process has led to an revolution of making music. This project is going to discover the social  potential of free drawing the digital notes which creates an emotional identity message for the drawer and the intersection of visualtion and auditory. </p>
+<p>Drawnote is a digital drawing board. Users will draw any figures to represent their own identity at that moment. Once the drawing is done, the code then translates the figures into a musical sequence using 3 types of instruments.</p>
+<p>The musical sequence can be remixed mutilple times, which will create a unique piece. The musical sequence translated from the drawing will be shared on the users' social media. It offer a chance to experience the process of music making in a playful and creative way. </p>
+</div>
+<div>
+<iframe src="https://www.openprocessing.org/sketch/811099/embed/" width="870" height="700"></iframe>
+</div>
 
 </div>
   </main>
@@ -75,25 +82,14 @@
     All Rights Reserved by <strong>Kaiyou Liu</strong> Shout Out to John Doe <i class="fa fa-thumbs-up" aria-hidden="true"></i>
   </small>
 
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:kl3733@nyu.edu"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#db4437'"
-       onMouseOut="this.style.color='#6c757d'">
+  <div class="container-fluid justify-content-center">
+<a class="social mx-1" href="mailto:kl3733@nyu.edu" style="color: #6c757d" onmouseover="this.style.color='#db4437'" onmouseout="this.style.color='#6c757d'">
       <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/superkaiyou"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#333333'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://www.github.com/superkaiyou" style="color: #6c757d" onmouseover="this.style.color='#333333'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.instagram.com/llliukkkyyy"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#405de6'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://www.instagram.com/llliukkkyyy" style="color: #6c757d" onmouseover="this.style.color='#405de6'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-instagram fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.linkedin.com/in/kaiyou-liu-567b34128"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#007bb5'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://www.linkedin.com/in/kaiyou-liu-567b34128" style="color: #6c757d" onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-linkedin-in fa-1x"></i>
     </a>
 
@@ -103,7 +99,7 @@
 <!---->
 <!--  <small id="attribution">-->
 <!--    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>-->
-  </small>
+  
   
 </footer>
 
@@ -112,7 +108,11 @@
 
 <!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<!--p5-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+<!--Tone-->
+<script src="https://unpkg.com/tone"></script>
 <!-- Popper.js CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 
@@ -124,6 +124,7 @@
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <!-- wow.js CDN & Activation -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<!--<script src="js/wow.min.js"></script>-->
 <script> new WOW().init(); </script>
 <!--Contact from Javascipt-->
 <script src="js/agency.js"></script>

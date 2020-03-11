@@ -1,37 +1,32 @@
-<div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
+<div>
+        <h3 class="col-8 mt-10 text-justify text wow animated slideInUp" data-wow-delay=".15s">
+            Hi, I'm Kaiyou.
+        </h3>
+        <h3 class="col-10 text wow animated slideInUp" data-wow-delay=".15s">
+            I'm an experience designer exploring the interspace between
+        </h3>
+        <h3 class="col-9 text wow animated slideInUp" data-wow-delay=".15s">
+            <mark>technology</mark> and <mark>art</mark>, <mark>vituality</mark> and<mark> reality</mark>.
+        </h3>
+        <div class="card-columns m-3 mt-9">
+          <!-- Local Projects -->
+          {% for project in site.projects %}
 
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
-      </div>
-    </div>
+            {%- assign project_type  = "local" -%}
+            {%- assign project_id    = project.name | slugify -%}
+            {%- assign project_img   = project.image -%}
+            {%- assign project_name  = project.name -%}
+            {%- assign project_desc  = project.description -%}
+            {%- assign project_tools = project.tools -%}
 
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
+            {%- if project.external_url -%}
+              {%- assign project_url = project.external_url -%}
+            {%- else -%}
+              {%- assign project_url = project.url | relative_url -%}
+            {%- endif -%}
 
-  </div>
-  <div class="card-columns m-3 mt-5">
-    <!-- Local Projects -->
-    {% for project in site.projects %}
+            {% include projects/project-card.html %}
 
-      {%- assign project_type  = "local" -%}
-      {%- assign project_id    = project.name | slugify -%}
-      {%- assign project_img   = project.image -%}
-      {%- assign project_name  = project.name -%}
-      {%- assign project_desc  = project.description -%}
-      {%- assign project_tools = project.tools -%}
-
-      {%- if project.external_url -%}
-        {%- assign project_url = project.external_url -%}
-      {%- else -%}
-        {%- assign project_url = project.url | relative_url -%}
-      {%- endif -%}
-
-      {% include projects/project-card.html %}
-
-    {% endfor %}
-
-  </div>
+          {% endfor %}
+        </div>
 </div>

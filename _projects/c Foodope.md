@@ -8,17 +8,17 @@ description: This project has no image or showcase page, but it is still a beaut
 
 # Foodope
 ![titleimage](https://user-images.githubusercontent.com/48978683/75386526-d38d5f00-58af-11ea-9d20-51f56856e735.png)
-**Project Info**    Individual project
+**Project Info:**    Individual Project
 
-**Role**    UX Designer, User Researcher, Visual Designer
+**Role:**    UX Designer, User Researcher, Visual Designer
 
-**Duration**    11/2018 - 12/2018
+**Duration:**    09/2018
 
 ### Problem Statement
 
-I believe that everyone has experienced such a moment in the restaurant, you felt hesitated about what to eat for dinner and you were unable to make a decision. There were so many options with dazzling names which made you confused. And you were worried about that the foods were far more different from what you expected. You originally wanted to try some fresh dishes, but because of those concerns, you once again chose to order the same dishes you ate last time.  Ordering foods is supposed to be a happy moment, but now it becomes a awkward one.
+When you felt hesitated about what to eat for dinner and you can't decide anything, what will you do? When there were so many options with dazzling names which made you confused, what will you do? When you were worried about that the foods were far more different from what you expected, what will you do?  When you wanted to try some fresh dishes, but you are a gym guy, so you worried there are too many sugar inside, what will you do? Ordering foods is supposed to be happy and easy, but it seems like a trouble.
 
-**How can we make the ordering process quick, easy, intuitive and happy?**
+**How can we make the ordering process effortless, intuitive and happy?**
 
 ### Design Outcome
 ![outcome](https://user-images.githubusercontent.com/48978683/75386593-f7e93b80-58af-11ea-8a5b-ba5168eb8d38.png)

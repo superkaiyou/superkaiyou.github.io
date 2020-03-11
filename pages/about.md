@@ -2,13 +2,13 @@
 layout: page
 title: About
 permalink: /about/
-weight: 4
+weight: 2
 ---
 
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Having a mixing background of ecological engineering and digital media, I am now pursuing my graduate degree in Integrated Digital Media at New York Univerisy. I love design just like I love imagining the unknown future. In my mind, the future world will be created by adventurer with creation, cyber-tech and empathy. I am runing on the road to this cyber world.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
