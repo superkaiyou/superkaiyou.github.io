@@ -2,7 +2,7 @@
 name: Foodope
 tools: [UX Design, UX Research, Visual Design]
 image: https://user-images.githubusercontent.com/48978683/75385593-07678500-58ae-11ea-8b1f-1373f9fc0fac.png
-description: This project has no image or showcase page, but it is still a beautiful project inside out!
+description: Help to order satisfied food effortless and playfully
 
 ---
 
@@ -16,7 +16,7 @@ description: This project has no image or showcase page, but it is still a beaut
 
 ### Problem Statement
 
-When you felt hesitated about what to eat for dinner and you can't decide anything, what will you do? When there were so many options with dazzling names which made you confused, what will you do? When you were worried about that the foods were far more different from what you expected, what will you do?  When you wanted to try some fresh dishes, but you are a gym guy, so you worried there are too many sugar inside, what will you do? Ordering foods is supposed to be happy and easy, but it seems like a trouble.
+When you felt hesitant about what to eat for dinner and you can't decide anything, what will you do? When there were so many options with dazzling names which made you confused, what will you do? When you were worried that the foods were far more different from what you expected, what will you do? When you wanted to try some fresh dishes, but you are a gym guy, so you worried there are too many sugars inside, what will you do? Ordering foods are supposed to be happy and easy, but it seems like trouble.
 
 **How can we make the ordering process effortless, intuitive and happy?**
 
@@ -28,7 +28,7 @@ When you felt hesitated about what to eat for dinner and you can't decide anythi
 
 #### Contextual Observation
 
-In order to well understand the process of people ordering foods and what factors influence people’s ordering decision making under different ordering methods, I went to different restaurants and experienced different types of ordering methods. Meanwhile, I observed the ordering process of my friends and other customers to find the potential service problems.  
+To well understand the process of people ordering foods and what factors influence people’s ordering decision making under different ordering methods, I went to different restaurants and experienced different types of ordering methods. Meanwhile, I observed the ordering process of my friends and other customers to find the potential service problems.  
 
 #### Interview
 
@@ -94,8 +94,8 @@ Then I created paper prototypes to realize the process of ordering and make it s
 
 ### Reflection
 
-I learn a lot from this design process and during my research process, I feel the importance of understanding user again. I r**espect their voice and learn from their behaviors.** And through talking with them I saw what really matter in the ordering process. 
+I learn a lot from this design process and during my research process, I feel the importance of understanding user again. I **respect their voice and learn from their behaviors.** And through talking with them I saw what matters in the ordering process. 
 
-Meanwhile, I tried to apply material design rules in this design. It really helps me **think about how the visual layout influence the efficiency of content delivery.**
+Meanwhile, I tried to apply material design rules in this design. It helps me **think about how the visual layout influences the efficiency of content delivery.**
 
-Finally, the most meaningful thing I learn from this design process is to **keep a firm attitude** when there are lots of design aspects. **Don’t waste time on making design decision.** A designer should start from some place quickly and make something to get feedback, then polish your work based on that.
+Finally, the most meaningful thing I learn from this design process is to **keep a firm attitude** when there are lots of design aspects. **Don’t waste time on making a design decision.** A designer should start from someplace quickly and make something to get feedback, then polish your work based on that.
