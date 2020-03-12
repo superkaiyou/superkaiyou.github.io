@@ -9,6 +9,7 @@ let playbutton,pausebutton,remixbutton,piano,pizzacato,marimba;
 let onplay;
 let chord;
 let counter = 0;
+let can;
 
 let sampler = new Tone.Sampler({"C4": "https://openprocessing-usercontent.s3.amazonaws.com/files/user188179/visual811099/h7d20c5ca00185e7daad4be5d2853b023/marimb.wav"});
 sampler.envelope = {
@@ -38,31 +39,32 @@ sampler1.envelope = {
 sampler1.toMaster();
 
 function setup() {
-    createCanvas(windowWidth,windowHeight);
-    background(255);
+    can = createCanvas(870,500);
+    can.position(190,500)
+    background(252);
   piano = createImg("https://openprocessing-usercontent.s3.amazonaws.com/files/user188179/visual811099/h7d20c5ca00185e7daad4be5d2853b023/piano1.png","");
     piano.size(50*1.125,50);
-    piano.position(width/2-240,height-50)
+    piano.position(width/2,height+500)
     piano.mousePressed(pianocounter);
     marimba = createImg("https://openprocessing-usercontent.s3.amazonaws.com/files/user188179/visual811099/h7d20c5ca00185e7daad4be5d2853b023/marimba.png","");
     marimba.size(50*1.125,50);
-    marimba.position(width/2-340,height-50)
+    marimba.position(width/2-100,height+500)
     marimba.mousePressed(marimbacounter);
     pizzacato = createImg("https://openprocessing-usercontent.s3.amazonaws.com/files/user188179/visual811099/h7d20c5ca00185e7daad4be5d2853b023/pizzacato1.png","");
     pizzacato.size(50*1.125,50);
-    pizzacato.position(width/2-440,height-50)
+    pizzacato.position(width/2-200,height+500)
     pizzacato.mousePressed(pizzacounter);
     playbutton = createImg("https://openprocessing-usercontent.s3.amazonaws.com/files/user188179/visual811099/h7d20c5ca00185e7daad4be5d2853b023/play.png","");
     playbutton.size(50*1.125,50);
-    playbutton.position(width/2-70,height-50)
+    playbutton.position(width/2+300,height+500)
     playbutton.mousePressed(chordplay);
     pausebutton = createImg("https://openprocessing-usercontent.s3.amazonaws.com/files/user188179/visual811099/h7d20c5ca00185e7daad4be5d2853b023/pause.png","");
     pausebutton.size(50*1.125,50);
-    pausebutton.position(width/2+70,height-50)
+    pausebutton.position(width/2+400,height+500)
     pausebutton.mousePressed(stopplay);
     remixbutton = createImg("https://openprocessing-usercontent.s3.amazonaws.com/files/user188179/visual811099/h7d20c5ca00185e7daad4be5d2853b023/remix.png","");
     remixbutton.size(50*1.125,50);
-    remixbutton.position(width/2+210,height-50)
+    remixbutton.position(width/2+500,height+500)
     remixbutton.mousePressed(remixplay);
     box = ["#722ed1","#9254de","#b37feb","#d3adf7","#efdbff","#f9f0ff"];
     box1 = ["#f5222d","#ff4d4f","#ff7875","#ffa39e","#ffccc7","#fff1f0"];
