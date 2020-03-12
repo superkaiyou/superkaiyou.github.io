@@ -1,9 +1,9 @@
 ---
-title: Clean Coding
-tags: [Software Development, Clean Code]
+title: Dancing Rect
+tags: [p5.js]
 style: fill
-color: info
-description: These four “clean code” tips will dramatically improve your engineering team’s productivity
+color: light
+description: Move you mouse around and type you arrow
 ---
 
 Source: [Jonathan Fulton](https://engineering.videoblocks.com/these-four-clean-code-tips-will-dramatically-improve-your-engineering-teams-productivity-b5bd121dd150)
