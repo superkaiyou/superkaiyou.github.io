@@ -20,7 +20,7 @@ I have been used to borrowing books from public libraries in my hometown since I
 >##### How might we create a borrowing experience for public library users to check the availability of books and borrow books easily?
 
 ### Design Outcome
-![libbot](https://user-images.githubusercontent.com/48978683/76278640-72c43600-6262-11ea-8eea-7b680d393293.gif)
+![ezgif com-resize (1)](https://user-images.githubusercontent.com/48978683/76723918-62f39880-671f-11ea-8b76-f35630beb9e4.gif)
 
 
 ### Understand
