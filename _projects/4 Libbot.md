@@ -92,7 +92,7 @@ I dive into the prototype stage to illustrate my concept --Libbot. I start from 
 
 #### User Flow
 
-![libbotflow](https://user-images.githubusercontent.com/48978683/76276603-a0a67c00-625c-11ea-9f48-fbab85730e62.png)
+![Libbot user flow](https://user-images.githubusercontent.com/48978683/76050174-873bc200-5f34-11ea-85e6-28d40080251d.png)
 
 #### Create Chatbot Pesona
 In the beginning, I used one of the public library building images as my Libbot persona avatar. I tested it with 4 people, they all said it can hardly build an emotional connection with the chatbot if it uses a concrete building to represent itself. Then I changed it to a librarian photo and tested it with people. The feedback is that the human photo makes people feel the Libbot is a friendly librarian which can help you borrow books, however, the Libbot is not a real human and using a human avatar makes them feel weird. **Based upon the feedback I have, I began to focus on creating a persona who can make people feel friendly, knowledgeable and helpful rather than tricking them into thinking they're talking to a human being.** Then I chose to design a panda avatar because people think panda is their cute and friendly friend in their mindset. To make it feel knowledgeable, it will handle a book in its paw. 
