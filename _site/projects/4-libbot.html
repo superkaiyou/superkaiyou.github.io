@@ -105,7 +105,7 @@ $(function () {
 
   <div class="col-lg-10 mx-auto mt-5 post">
   <h1 id="libbot">Libbot</h1>
-<p><img src="https://user-images.githubusercontent.com/48978683/76275780-89ff2580-625a-11ea-8e38-f308d39dc883.png" alt="pagebanner1"></p>
+<p><img src="https://user-images.githubusercontent.com/48978683/77219823-c3b01600-6b0f-11ea-811b-edee15beaaf8.png" alt="banner"></p>
 
 <p><strong>Project Info:</strong>    Individual Project</p>
 
@@ -122,7 +122,6 @@ $(function () {
 </blockquote>
 
 <h3 id="design-outcome">Design Outcome</h3>
-<p><img src="https://user-images.githubusercontent.com/48978683/76723918-62f39880-671f-11ea-8b76-f35630beb9e4.gif" alt="ezgif com-resize (1)"></p>
 
 <h3 id="understand">Understand</h3>
 
@@ -161,7 +160,7 @@ $(function () {
 <ul>
   <li>Effortless: The easy thing will be easier and the hard things will be possible.</li>
   <li>Insightful: Multiple sources and methods will be used to satisfy user’s needs.</li>
-  <li>Attentive: The design will be all age users friendly.</li>
+  <li>Flexible: The design will offer flexible options.</li>
   <li>Accessible: The design will be inclusive and accessible to all type of users.</li>
 </ul>
 
@@ -176,7 +175,7 @@ Then I find:</p>
 <ul>
   <li>Most of library users hope that the library can deliver the books to them, or at least they can pick up those books at one selected place. Rest of them feel they’d like to go to the library and enjoy the process of using the physical space.</li>
   <li>Most of library users think a smart chatbot is more friendly than a simple Application. Because it makes them feel like a friendly librarian.</li>
-  <li>Library users expect the graphic information as well, because it is easy and efficient to understand the information and specify whether it is the book they want.</li>
+  <li>Library users expect clear visualization as well, because it is easy and efficient to understand the information.</li>
 </ul>
 
 <h3 id="decide">Decide</h3>
@@ -185,11 +184,16 @@ Then I find:</p>
 <img src="https://user-images.githubusercontent.com/48978683/75845181-57f74a80-5da6-11ea-9705-b6fc96feb59c.png" alt="all in one"></p>
 
 <h3 id="prototype">Prototype</h3>
+<h4 id="moodboard">Moodboard</h4>
+<p>Before I began making my design prototype, I collected ideas and got inspiration from them. It’s better than starting from nowhere.
+<img src="https://user-images.githubusercontent.com/48978683/77210904-8aa87f00-6ad8-11ea-97ad-13cf38e9dda7.png" alt="moodboard"></p>
+
 <h4 id="storyboard">Storyboard</h4>
 <p>I dive into the prototype stage to illustrate my concept –Libbot. I start from drawing the storyboard mapping out the experience I want to create. The Libbot will include these function units:</p>
 <ul>
   <li>Searching</li>
   <li>Reservation and Reservation Cancel</li>
+  <li>Borrow Status Check</li>
   <li>Pick-up Location Choices</li>
   <li>Navigation Map</li>
   <li>Sending Remind</li>
@@ -197,17 +201,82 @@ Then I find:</p>
 
 <p><img src="https://user-images.githubusercontent.com/48978683/75923689-9c7cf780-5e33-11ea-8612-a3e58646d451.png" alt="libbotstoryboard"></p>
 
-<h4 id="user-flow">User Flow</h4>
+<h4 id="create-chatbot-pesona">Create Chatbot Pesona</h4>
+<p>In the beginning, I used one of the public library building images as my Libbot persona avatar. I tested it with 4 people, they all said it can hardly build an emotional connection with the chatbot if it uses a concrete building to represent itself. Then I changed it to a librarian photo and tested it with people. The feedback is that the human photo makes people feel the Libbot is a friendly librarian which can help you borrow books, however, the Libbot is not a real human and using a human avatar makes them feel weird. <strong>Based upon the feedback I have, I began to focus on creating a persona who can make people feel friendly, knowledgeable and helpful rather than tricking them into thinking they’re talking to a human being.</strong> Then I chose to use an emoji style avatar because  in their mindset people think an emoji is cute and friendly. And they are used to sned emoji to express their emotion.</p>
+
+<p><img src="https://user-images.githubusercontent.com/48978683/77210231-dce8a080-6ad6-11ea-86f5-72ee60f32b68.png" alt="avatar board"></p>
+
+<h4 id="lo-fi-sketch">Lo-Fi Sketch</h4>
+<p>Then I started to sketch my design. Based on the insights and my design principles of <strong>effortlessness, flexiblity and accessible</strong>, I focus on parts:</p>
+
+<ul>
+  <li>Make an experience building emotional connection with users.</li>
+  <li>Offer guideline for new users.</li>
+  <li>Make an effoertless borrowing experience.</li>
+  <li>Offer friendly conservation experience.</li>
+  <li>Offer clear information visualization.</li>
+</ul>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+<li data-target="#carouselExampleIndicators" data-slide-to="1">
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+          <img src="https://user-images.githubusercontent.com/48978683/77209179-f6d4b400-6ad3-11ea-8841-5ce823346a7c.png" class="d-block w-100">
+        </div>
+<div class="carousel-item">
+          <img src="https://user-images.githubusercontent.com/48978683/77209178-f6d4b400-6ad3-11ea-821a-9021f42ff7e2.png" class="d-block w-100">
+        </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+
+<h4 id="conversation-flow">Conversation Flow</h4>
 
 <p><img src="https://user-images.githubusercontent.com/48978683/76050174-873bc200-5f34-11ea-85e6-28d40080251d.png" alt="Libbot user flow"></p>
 
-<h4 id="create-chatbot-pesona">Create Chatbot Pesona</h4>
-<p>In the beginning, I used one of the public library building images as my Libbot persona avatar. I tested it with 4 people, they all said it can hardly build an emotional connection with the chatbot if it uses a concrete building to represent itself. Then I changed it to a librarian photo and tested it with people. The feedback is that the human photo makes people feel the Libbot is a friendly librarian which can help you borrow books, however, the Libbot is not a real human and using a human avatar makes them feel weird. <strong>Based upon the feedback I have, I began to focus on creating a persona who can make people feel friendly, knowledgeable and helpful rather than tricking them into thinking they’re talking to a human being.</strong> Then I chose to design a panda avatar because people think panda is their cute and friendly friend in their mindset. To make it feel knowledgeable, it will handle a book in its paw. 
-<img src="https://user-images.githubusercontent.com/48978683/76251985-6322fe00-621e-11ea-9fb4-236933956e13.png" alt="Avatar"></p>
+<h4 id="final-design">Final Design</h4>
+<h5 id="begin-using">Begin using</h5>
+<p>To create an experience building emotional connection, I designed a conversation way to help user login.
+<img src="https://user-images.githubusercontent.com/48978683/77219816-b09d4600-6b0f-11ea-8976-f4185392e109.png" alt="login"></p>
 
-<h4 id="wireframe">Wireframe</h4>
-<p>I draw the wireframe to show how users can borrow a book by using Libbot
-<img src="https://user-images.githubusercontent.com/48978683/76265351-ae4b0a00-623a-11ea-8e2e-e68a593a91c6.png" alt="libbotflow"></p>
+<h5 id="features-guideline">Features guideline</h5>
+<p>To help user know what they can do with Libbot, I designed a quick guide for them.
+<img src="https://user-images.githubusercontent.com/48978683/77219958-1a6a1f80-6b11-11ea-806d-8e758629b2a1.png" alt="Guide"></p>
+
+<h5 id="borrow-process">Borrow process</h5>
+<p>User can chat with Libbot to search and borrow books effortlessly.
+<img src="https://user-images.githubusercontent.com/48978683/77219974-57361680-6b11-11ea-99c0-68261a2aaf2f.png" alt="conversation borrowing"></p>
+
+<h5 id="pickup">Pickup</h5>
+<p>User can easily check when and where they can pickup the books.
+<img src="https://user-images.githubusercontent.com/48978683/77219987-80ef3d80-6b11-11ea-9a96-3d0f674fd5c3.png" alt="pickup"></p>
+
+<h5 id="remind">Remind</h5>
+<p>Libbot wil send remind to user before the return deadline. And with good data visualization, user can easily know how long they can keep books.
+<img src="https://user-images.githubusercontent.com/48978683/77220006-cd3a7d80-6b11-11ea-83d0-bde3594b7a6a.png" alt="remind"></p>
+
+<h5 id="check-borrowing-history">Check borrowing history</h5>
+<p>User can review their borrowing history.
+<img src="https://user-images.githubusercontent.com/48978683/77220030-1c80ae00-6b12-11ea-8b3a-1c5c243a354a.png" alt="Me"></p>
+
+<h5 id="whole-wireframe">Whole Wireframe</h5>
+
+<p><img src="https://user-images.githubusercontent.com/48978683/77220035-2bfff700-6b12-11ea-8659-9438603ce810.png" alt="whole wireframe"></p>
 
 <h3 id="validate">Validate</h3>
 <h4 id="user-test">User Test</h4>

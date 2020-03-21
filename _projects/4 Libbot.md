@@ -1,11 +1,12 @@
 ---
 name: Libbot
 tools: [UX Design, UX Research, Visual Design]
-image: https://user-images.githubusercontent.com/48978683/76275821-a13e1300-625a-11ea-8a27-650758406cc4.png
+image: https://user-images.githubusercontent.com/48978683/77219922-a465b880-6b10-11ea-9a2b-3d0397809103.png
 description: Libbot is a library assistant for helping people use public library resources
 ---
 # Libbot 
-![pagebanner1](https://user-images.githubusercontent.com/48978683/76275780-89ff2580-625a-11ea-8e38-f308d39dc883.png)
+![banner](https://user-images.githubusercontent.com/48978683/77219823-c3b01600-6b0f-11ea-811b-edee15beaaf8.png)
+
 
 **Project Info:**    Individual Project
 
@@ -20,7 +21,8 @@ I have been used to borrowing books from public libraries in my hometown since I
 >##### How might we create a borrowing experience for public library users to check the availability of books and borrow books easily?
 
 ### Design Outcome
-![ezgif com-resize (1)](https://user-images.githubusercontent.com/48978683/76723918-62f39880-671f-11ea-8b76-f35630beb9e4.gif)
+
+
 
 
 ### Understand
@@ -59,7 +61,7 @@ I also establish the design principles that will drive my design decisions:
 
 - Effortless: The easy thing will be easier and the hard things will be possible.
 - Insightful: Multiple sources and methods will be used to satisfy user's needs.
-- Attentive: The design will be all age users friendly.
+- Flexible: The design will offer flexible options.
 - Accessible: The design will be inclusive and accessible to all type of users.
 
 ### Sketch
@@ -72,7 +74,7 @@ Then I find:
 
 - Most of library users hope that the library can deliver the books to them, or at least they can pick up those books at one selected place. Rest of them feel they'd like to go to the library and enjoy the process of using the physical space.
 - Most of library users think a smart chatbot is more friendly than a simple Application. Because it makes them feel like a friendly librarian.
-- Library users expect the graphic information as well, because it is easy and efficient to understand the information and specify whether it is the book they want.
+- Library users expect clear visualization as well, because it is easy and efficient to understand the information. 
 
 ### Decide
 #### All In One
@@ -80,27 +82,77 @@ The feedaback and insights I find from my pre-test help me move forward. So I sk
 ![all in one](https://user-images.githubusercontent.com/48978683/75845181-57f74a80-5da6-11ea-9705-b6fc96feb59c.png)
 
 ### Prototype
+#### Moodboard
+Before I began making my design prototype, I collected ideas and got inspiration from them. It's better than starting from nowhere.
+![moodboard](https://user-images.githubusercontent.com/48978683/77210904-8aa87f00-6ad8-11ea-97ad-13cf38e9dda7.png)
+
 #### Storyboard
 I dive into the prototype stage to illustrate my concept --Libbot. I start from drawing the storyboard mapping out the experience I want to create. The Libbot will include these function units:
 - Searching 
 - Reservation and Reservation Cancel 
+- Borrow Status Check
 - Pick-up Location Choices 
 - Navigation Map 
 - Sending Remind 
 
 ![libbotstoryboard](https://user-images.githubusercontent.com/48978683/75923689-9c7cf780-5e33-11ea-8612-a3e58646d451.png)
 
-#### User Flow
+#### Create Chatbot Pesona
+In the beginning, I used one of the public library building images as my Libbot persona avatar. I tested it with 4 people, they all said it can hardly build an emotional connection with the chatbot if it uses a concrete building to represent itself. Then I changed it to a librarian photo and tested it with people. The feedback is that the human photo makes people feel the Libbot is a friendly librarian which can help you borrow books, however, the Libbot is not a real human and using a human avatar makes them feel weird. **Based upon the feedback I have, I began to focus on creating a persona who can make people feel friendly, knowledgeable and helpful rather than tricking them into thinking they're talking to a human being.** Then I chose to use an emoji style avatar because  in their mindset people think an emoji is cute and friendly. And they are used to sned emoji to express their emotion.  
+
+![avatar board](https://user-images.githubusercontent.com/48978683/77210231-dce8a080-6ad6-11ea-86f5-72ee60f32b68.png)
+
+
+#### Lo-Fi Sketch
+Then I started to sketch my design. Based on the insights and my design principles of **effortlessness, flexiblity and accessible**, I focus on parts:
+
+- Make an experience building emotional connection with users.
+- Offer guideline for new users.
+- Make an effoertless borrowing experience.
+- Offer friendly conservation experience.
+- Offer clear information visualization.
+
+{% capture carousel_images %}
+https://user-images.githubusercontent.com/48978683/77209179-f6d4b400-6ad3-11ea-8841-5ce823346a7c.png
+https://user-images.githubusercontent.com/48978683/77209178-f6d4b400-6ad3-11ea-821a-9021f42ff7e2.png
+{% endcapture %}
+{% include elements/carousel.html %}
+#### Conversation Flow
 
 ![Libbot user flow](https://user-images.githubusercontent.com/48978683/76050174-873bc200-5f34-11ea-85e6-28d40080251d.png)
 
-#### Create Chatbot Pesona
-In the beginning, I used one of the public library building images as my Libbot persona avatar. I tested it with 4 people, they all said it can hardly build an emotional connection with the chatbot if it uses a concrete building to represent itself. Then I changed it to a librarian photo and tested it with people. The feedback is that the human photo makes people feel the Libbot is a friendly librarian which can help you borrow books, however, the Libbot is not a real human and using a human avatar makes them feel weird. **Based upon the feedback I have, I began to focus on creating a persona who can make people feel friendly, knowledgeable and helpful rather than tricking them into thinking they're talking to a human being.** Then I chose to design a panda avatar because people think panda is their cute and friendly friend in their mindset. To make it feel knowledgeable, it will handle a book in its paw. 
-![Avatar](https://user-images.githubusercontent.com/48978683/76251985-6322fe00-621e-11ea-9fb4-236933956e13.png)
+#### Final Design
+##### Begin using
+To create an experience building emotional connection, I designed a conversation way to help user login.
+![login](https://user-images.githubusercontent.com/48978683/77219816-b09d4600-6b0f-11ea-8976-f4185392e109.png)
 
-#### Wireframe
-I draw the wireframe to show how users can borrow a book by using Libbot
-![libbotflow](https://user-images.githubusercontent.com/48978683/76265351-ae4b0a00-623a-11ea-8e2e-e68a593a91c6.png)
+##### Features guideline
+To help user know what they can do with Libbot, I designed a quick guide for them.
+![Guide](https://user-images.githubusercontent.com/48978683/77219958-1a6a1f80-6b11-11ea-806d-8e758629b2a1.png)
+
+
+##### Borrow process
+User can chat with Libbot to search and borrow books effortlessly.
+![conversation borrowing](https://user-images.githubusercontent.com/48978683/77219974-57361680-6b11-11ea-99c0-68261a2aaf2f.png)
+
+
+##### Pickup
+User can easily check when and where they can pickup the books.
+![pickup](https://user-images.githubusercontent.com/48978683/77219987-80ef3d80-6b11-11ea-9a96-3d0f674fd5c3.png)
+
+##### Remind
+Libbot wil send remind to user before the return deadline. And with good data visualization, user can easily know how long they can keep books.
+![remind](https://user-images.githubusercontent.com/48978683/77220006-cd3a7d80-6b11-11ea-83d0-bde3594b7a6a.png)
+
+##### Check borrowing history
+User can review their borrowing history.
+![Me](https://user-images.githubusercontent.com/48978683/77220030-1c80ae00-6b12-11ea-8b3a-1c5c243a354a.png)
+
+##### Whole Wireframe
+
+![whole wireframe](https://user-images.githubusercontent.com/48978683/77220035-2bfff700-6b12-11ea-8659-9438603ce810.png)
+
+
 
 ### Validate
 #### User Test
