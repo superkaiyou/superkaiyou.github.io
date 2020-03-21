@@ -20,11 +20,6 @@ I have been used to borrowing books from public libraries in my hometown since I
 
 >##### How might we create a borrowing experience for public library users to check the availability of books and borrow books easily?
 
-### Design Outcome
-
-
-
-
 ### Understand
 
 
@@ -133,7 +128,8 @@ To help user know what they can do with Libbot, I designed a quick guide for the
 
 ##### Borrow process
 User can chat with Libbot to search and borrow books effortlessly.
-![conversation borrowing](https://user-images.githubusercontent.com/48978683/77219974-57361680-6b11-11ea-99c0-68261a2aaf2f.png)
+![conversation borrowing](https://user-images.githubusercontent.com/48978683/77220735-63be6d00-6b19-11ea-9fb3-9cbd2e095dab.png)
+
 
 
 ##### Pickup
@@ -150,7 +146,10 @@ User can review their borrowing history.
 
 ##### Whole Wireframe
 
-![whole wireframe](https://user-images.githubusercontent.com/48978683/77220035-2bfff700-6b12-11ea-8659-9438603ce810.png)
+![whole wireframe](https://user-images.githubusercontent.com/48978683/77220751-76d13d00-6b19-11ea-81fd-58c36846c908.png)
+
+##### Interactive Prototype
+Play my [Interactive Prototype](https://kaiyou96235.invisionapp.com/public/share/JS12BGJZV9#screens/476875549)
 
 
 
