@@ -84,7 +84,7 @@ Then a gigamap depicting this complex, wicked problem of "status of american man
 ### Design
 #### Brief
 Under the existing manufacturing situation in New York City. Our team takes from the leverage points of Donella Meadows and decides to design an experimental future, which shows a "high-tech" manufacturing world from different people's perspectives, to raise critical provocations and questions about issues that are of present importance and help visualize alternatives to present situations and think around what kinds of futures might be desirable or undesirable and to highlight actors, people, technologies, or institutions - that are and might be shaping the future in key ways. 
-#### Outcome -- How Will the Manufacturing Industry Look Like in Five Years in Post - Pandemic Age
+#### Outcome -- How Will the Manufacturing Industry Look Like in Eight Years in Post - Pandemic Age
 [Prototype Page](https://invis.io/9BX68RDEWZM#/417447598_NYTimes_Front_Page)
 ![Front page](https://user-images.githubusercontent.com/48978683/84982873-25613a00-b16a-11ea-9dd6-9ea46ba7729b.png)
 ![main story](https://user-images.githubusercontent.com/48978683/84982878-285c2a80-b16a-11ea-9650-4d7e02dde317.png)
@@ -128,23 +128,48 @@ By allowing workers to be trained in a paid system of preparation, it increases 
 Intervention via #6 Driving or empowering negative feedback loops and suppressing or regulating positive feedback loops
 By providing grants to low-income people who have lost their low-skill manufacturing jobs, but who do not have the technological know-how or access to online educational efforts to retrain, it could interrupt this negative feedback loop of lack of access to technology/the modern factory jobs that are available.
 
+##### Brainstorming
 Then we considered about those three potential nodes and used Voros’ version of the futures cone to come up with scenarios for possible future for a node.
 
-##### projected future
+###### projected future
 ![projected future by alex](https://user-images.githubusercontent.com/48978683/84984528-981fe480-b16d-11ea-8c21-aef6c3813919.jpeg)
 
-##### probable future
+###### probable future
 ![probable future by Siyi](https://user-images.githubusercontent.com/48978683/84984522-9524f400-b16d-11ea-869b-68e5c4cbf76f.png)
 
-##### plausible future
+###### plausible future
 ![plausible future by junnan](https://user-images.githubusercontent.com/48978683/84984520-935b3080-b16d-11ea-89eb-6b6ac1799ddc.jpeg)
 
-##### possible future
+###### possible future
 ![possible future by kaiyou](https://user-images.githubusercontent.com/48978683/84984512-8e967c80-b16d-11ea-966a-902b8b799c3c.png)
 
 Then we also try to brainstorm our final deliver by using Stuart Candy's future Ladder.
-##### future ladder
+###### future ladder
 ![future ladder](https://user-images.githubusercontent.com/48978683/84985643-b7b80c80-b16f-11ea-8409-efc22c936dba.png)
 ![fl by siyi](https://user-images.githubusercontent.com/48978683/84985656-bedf1a80-b16f-11ea-9dcb-7e531765e79f.jpeg)
 ![fl by kaiyou](https://user-images.githubusercontent.com/48978683/84985658-c0104780-b16f-11ea-8158-e8c12538267f.png)
 ![fl by junnan](https://user-images.githubusercontent.com/48978683/84985663-c1417480-b16f-11ea-8d13-436383b82c65.jpeg)
+
+##### Design Decision
+After we discussed about our ideas, we final decided the story we want to depict the future of manufacturing industry. 
+
+**The leverage point** : Focus on skill gap and inevitable creation of higher skill and technology - associated manufacturing job. 
+**The story setting**  : A progressive future in 2028
+**Scenario** : Green tech manufacturing company
+**Situation** : Green tech company polluting, causing an outbreak of skin cancer among employees, leading them to strike
+**Stuff** New York Time as our media to provide all the context of the future world
+
+Our group showed a slice of life in 2028 through the lens of The New York Times. We maintained the style and formatting, and populated the page with realistic headlines and photos of the world as seen in 2028.
+We maintained different sections, Front page stories, Live updates, Science & Medicine, US Politics, the Opinion Section with Editorial Board commentary. In this hypothetical world, Nikki Haley succeeded Joe Biden as President, and Yang and Buttigieg are facing down a potential contested convention for the Democratic nomination. LA is preparing for the 2028 Summer Olympics, a cure for cancer via CRISPR technology is on the horizon, Xi of China is in the process of transferring power, and the health effects of Remote work, as a now ubiquitous practice, are being scrutinized. In the main article for our immersive story, we’re focused on a green tech company called Solar Solutions. The employees of this company are starting to go on strike because, ironically, this supposedly green company is polluting to such an extent that there has been a rash of Cadmium and Telluride environmental poisoning, which is based on research showing the existing increase and projected increase over the next few decades of e-waste and solar manufacturing waste in particular. With healthcare divorced from employment, the company is denying any connection or responsibility for this connection, and so The New York Times has interviewed four players in this story, the CEO and Middle management, A Manufacturing line VR worker, and a politician that supports green policies. 
+
+###### Politician
+Starting with the politician, in 2028 Alexandria Ocasio-Cortez is running for the United States Senate, representing New York. As a supporter of policies for green technology and workers’ rights, The New York Times is interviewing her to get her response to the fact that a company like Solar Solutions, which benefits greatly from being a quote green tech, sustainability-focused manufacturing company, has financial incentives while still having stereotypical corporate issues. She discusses the false choice presented between the supposed cost of being environmentally responsible and maintaining jobs for the manufacturing workers, meanwhile inequality between the executive class and the labor pool is more exacerbated than ever, with a pay ratio of over 300 to 1
+
+###### CEO
+In the interview, the CEO of solar solutions company, Emmett talked about that the company is proud of creating green technology and they are recycling all the e-waste and aim to sustainable manufacturing.  However, the New York times investigative team discovered that the company threw away the unqualified solar panels improperly. The CEO also mentioned the cooperation with the VR company. He praised the technology providing the employees the opportunities to work from home. He said in the interview that “it increased the productivity and employees’ quality of life”. The VR company shared a typical interface with the New York Times, all the workers’ working hours will be automatically recorded by the system. Lastly, the CEO replied about their donation to the skin cancer foundation. He insisted that the company has no responsibilities to any of the personal health problems of their employees. The purpose for the donation is just to support the cancer research and they wish everyone to be safe and smart.  
+
+###### Middle Manager
+In the interview, the middle mannager of solar solution company response to recent strike happening and describe the future of the solar company. She mentioned the company's huge potential in clean energy field.
+
+###### VR Worker
+The worker feel satisfied about his role in the Industry. Through the VR headset, he got the privilege to work remotely. His daily work is logging into the VR system and collaborating with robots and drones. However, he started to change his normal life, because he need to adjust to wear the VR headset for 16 hours a day. The eye-tracking system makes him feel uncomfortable.
