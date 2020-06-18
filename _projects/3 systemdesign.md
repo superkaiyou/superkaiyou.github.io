@@ -164,12 +164,13 @@ We maintained different sections, Front page stories, Live updates, Science & Me
 
 ###### Politician
 Starting with the politician, in 2028 Alexandria Ocasio-Cortez is running for the United States Senate, representing New York. As a supporter of policies for green technology and workers’ rights, The New York Times is interviewing her to get her response to the fact that a company like Solar Solutions, which benefits greatly from being a quote green tech, sustainability-focused manufacturing company, has financial incentives while still having stereotypical corporate issues. She discusses the false choice presented between the supposed cost of being environmentally responsible and maintaining jobs for the manufacturing workers, meanwhile inequality between the executive class and the labor pool is more exacerbated than ever, with a pay ratio of over 300 to 1
-
+![6](https://user-images.githubusercontent.com/48978683/84997800-98c27600-b181-11ea-8bc7-74293386b62b.png)
 ###### CEO
 In the interview, the CEO of solar solutions company, Emmett talked about that the company is proud of creating green technology and they are recycling all the e-waste and aim to sustainable manufacturing.  However, the New York times investigative team discovered that the company threw away the unqualified solar panels improperly. The CEO also mentioned the cooperation with the VR company. He praised the technology providing the employees the opportunities to work from home. He said in the interview that “it increased the productivity and employees’ quality of life”. The VR company shared a typical interface with the New York Times, all the workers’ working hours will be automatically recorded by the system. Lastly, the CEO replied about their donation to the skin cancer foundation. He insisted that the company has no responsibilities to any of the personal health problems of their employees. The purpose for the donation is just to support the cancer research and they wish everyone to be safe and smart.  
-
+![4](https://user-images.githubusercontent.com/48978683/84997986-d1fae600-b181-11ea-86bd-614981a4f703.png)
 ###### Middle Manager
 In the interview, the middle mannager of solar solution company response to recent strike happening and describe the future of the solar company. She mentioned the company's huge potential in clean energy field.
-
+![5](https://user-images.githubusercontent.com/48978683/84997923-bd1e5280-b181-11ea-9207-6b41b70ca600.png)
 ###### VR Worker
 The worker feel satisfied about his role in the Industry. Through the VR headset, he got the privilege to work remotely. His daily work is logging into the VR system and collaborating with robots and drones. However, he started to change his normal life, because he need to adjust to wear the VR headset for 16 hours a day. The eye-tracking system makes him feel uncomfortable.
+![3](https://user-images.githubusercontent.com/48978683/84997781-93fdc200-b181-11ea-8f4f-d8ad3d066944.png)
