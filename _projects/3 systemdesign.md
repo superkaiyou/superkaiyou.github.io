@@ -141,3 +141,10 @@ Then we considered about those three potential nodes and used Voros’ version o
 
 ##### possible future
 ![possible future by kaiyou](https://user-images.githubusercontent.com/48978683/84984512-8e967c80-b16d-11ea-966a-902b8b799c3c.png)
+
+Then we also try to brainstorm our final deliver by using Stuart Candy's future Ladder.
+##### future ladder
+![future ladder](https://user-images.githubusercontent.com/48978683/84985643-b7b80c80-b16f-11ea-8409-efc22c936dba.png)
+![fl by siyi](https://user-images.githubusercontent.com/48978683/84985656-bedf1a80-b16f-11ea-9dcb-7e531765e79f.jpeg)
+![fl by kaiyou](https://user-images.githubusercontent.com/48978683/84985658-c0104780-b16f-11ea-8158-e8c12538267f.png)
+![fl by junnan](https://user-images.githubusercontent.com/48978683/84985663-c1417480-b16f-11ea-8d13-436383b82c65.jpeg)
