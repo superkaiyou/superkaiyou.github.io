@@ -40,7 +40,7 @@ sampler1.toMaster();
 
 function setup() {
     can = createCanvas(870,500);
-    can.position(190,500)
+    can.position(190,500);
     background(252);
   piano = createImg("https://openprocessing-usercontent.s3.amazonaws.com/files/user188179/visual811099/h7d20c5ca00185e7daad4be5d2853b023/piano1.png","");
     piano.size(50*1.125,50);
